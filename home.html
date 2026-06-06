@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+<style>
+*{
+    margin:0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* Navbar */
+.navbar{
+    background-color: rgb(174, 89, 89);
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+a{
+    padding:5px;
+    margin:2px;
+    color:black;
+    text-decoration: none;
+}
+
+.nav-links{
+    margin-left: auto;
+}
+
+/* Heading */
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+
+/* Button */
+.custom-btn{
+    background-color: bisque;
+    border-radius: 5px;
+    padding:10px;
+    height:50px;
+    width:150px;
+    margin:3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-btn:hover{
+    background-color: rgb(223, 145, 145);
+}
+
+/* Card */
+.card{
+    text-align: center;
+    height: auto;
+    border-color: black;
+    
+}
+.footer{
+    background-color: rgb(174, 89, 89);
+    text-align: center;
+    color: black;
+    padding:5px;
+    margin:5px;
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://t4.ftcdn.net/jpg/06/31/47/93/360_F_631479392_ZIDxzFDUoBYg8VchTRJ7TjQWlmD0J920.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+/* Optional dark overlay for better text visibility */
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.banner-text {
+  position: relative;
+  z-index: 1;
+}
+</style>
+</head>
+
+<body>
+
+   
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <img src="https://previews.123rf.com/images/mamun25g/mamun25g2201/mamun25g220114204/181613683-vbj-circle-letter-logo-design-with-circle-and-ellipse-shape-vbj-ellipse-letters-with-typographic.jpg" height="100px" width="100px"> 
+
+    <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+    </div> 
+</div>
+<div class="banner">
+    <div class="banner-text">
+      <h1>Welcome to My Website</h1>
+      <p>Your journey starts here</p>
+    </div>
+  </div>
+
+<h1>Welcome to SereneSols!!</h1>
+
+<center>
+    <button class="custom-btn">Explore</button>
+</center>
+
+
+<h1 class="mt-5 text-center">Feedback</h1>
+
+<div class="container mt-3">
+    <div class="row g-4 justify-content-center">
+
+        <!-- Student 1 -->
+        <div class="col-md-5">
+            <div class="card  p-3 shadow-sm">
+                <p class="mb-0">
+                    Aarav performs well academically and understands concepts quickly. He should focus on improving answer writing and consistency in revision.
+                </p>
+            </div>
+        </div>
+
+        <!-- Student 2 -->
+        <div class="col-md-5">
+            <div class="card p-3 shadow-sm">
+                <p class="mb-0">
+                    Meera is sincere and shows steady progress in her studies. She should improve her speed and practice more application-based questions.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; SereneSols . All Rights Reserved.</p>
+</footer>
+
+
+
+</body>
+</html>
